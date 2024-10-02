@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container-xxl, .container {
+    padding-top: 20px;
+}
+
+h3 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card-footer {
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+
+.btn-outline-primary {
+    border-radius: 5px;
+}
+
+.btn-outline-danger {
+    border-radius: 5px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    height: 100vh;
+    padding: 15px;
+}
+
+.sidebar a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand:hover {
+    color: #f8f9fa;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    color: #f8f9fa;
+}
+
+/* Table Styles */
+.table-dark {
+    background-color: #343a40;
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6;
+}
+
+/* Modal Styles */
+.modal-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.modal-footer .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+/* Blog List Styling */
+.row {
+    margin-top: 20px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+/* Button Styles */
+button {
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f1f1f1;
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        height: auto;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+}
